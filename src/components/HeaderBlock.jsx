@@ -1,7 +1,7 @@
 import React from "react";
 // import "./HeaderBlock.css";
 
-function HeaderBloxk() {
+function HeaderBlock() {
   return (
     <div className="headerBlock">
       <div className="headerBlock__info">
@@ -22,4 +22,4 @@ function HeaderBloxk() {
   );
 }
 
-export default HeaderBloxk;
+export default HeaderBlock;
