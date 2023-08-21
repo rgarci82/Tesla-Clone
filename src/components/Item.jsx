@@ -20,9 +20,9 @@ function Item({
     >
       <div className="item__container">
         <div className="item__text">
-          <p>{title}</p>
+          <h1>{title}</h1>
           <div className="item__textDesc">
-            <p>{desc}</p>
+            <h4>{desc}</h4>
           </div>
         </div>
         <div className="item__lowerThird">

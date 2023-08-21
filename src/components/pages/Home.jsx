@@ -27,15 +27,7 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           first
         />
         <Item
-          desc="something"
-          title="Model S"
-          backgroundImg={ModelS}
-          leftBtnTxt="CUSTOM ORDER"
-          rightBtnTxt="LEARN MORE"
-          twoButtons="true"
-        />
-        <Item
-          desc="something"
+          desc="Order Online for Touchless Delivery"
           title="Model 3"
           backgroundImg={Model3}
           leftBtnTxt="CUSTOM ORDER"
@@ -43,7 +35,15 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="something"
+          desc="Order Online for Touchless Delivery"
+          title="Model S"
+          backgroundImg={ModelS}
+          leftBtnTxt="CUSTOM ORDER"
+          rightBtnTxt="LEARN MORE"
+          twoButtons="true"
+        />
+        <Item
+          desc="Order Online for Touchless Delivery"
           title="Model X"
           backgroundImg={ModelX}
           leftBtnTxt="CUSTOM ORDER"
@@ -51,7 +51,7 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="something"
+          desc="Order Online for Touchless Delivery"
           title="Model Y"
           backgroundImg={ModelY}
           leftBtnTxt="CUSTOM ORDER"

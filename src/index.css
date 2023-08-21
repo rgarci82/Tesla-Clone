@@ -606,6 +606,19 @@ code {
   text-align: center;
 }
 
+.item__text > h1 {
+  color: #393c41;
+  font-weight: 500;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+
+.item__text > h4 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #5c5e65;
+}
+
 .item__textDesc {
   font-weight: 200;
   font-size: 14px;
