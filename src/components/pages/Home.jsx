@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Header";
-import HeaderBlock from "../HeaderBlock";
 import Menu from "../Menu";
 import ModelS from "../../assets/Desktop-ModelS.jpeg";
 import Model3 from "../../assets/Desktop-Model3.jpeg";
