@@ -5,6 +5,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 function Item({
   title,
   desc,
+  descU,
   backgroundImg,
   leftBtnTxt,
   rightBtnTxt,
@@ -22,7 +23,9 @@ function Item({
         <div className="item__text">
           <h1>{title}</h1>
           <div className="item__textDesc">
-            <h4>{desc}</h4>
+            <h4>
+              {desc} <span className="item__textDesc--span">{descU}</span>
+            </h4>
           </div>
         </div>
         <div className="item__lowerThird">

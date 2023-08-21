@@ -17,7 +17,8 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
       {isMenuOpen && <Menu />}
       <div className="items__container">
         <Item
-          desc="something"
+          desc="Money Back "
+          descU="Guaranteed"
           title="Lowest Cost Solar Panels in America"
           backgroundImg={SolarPanels}
           leftBtnTxt="ORDER NOW"
@@ -26,7 +27,8 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           first
         />
         <Item
-          desc="Order Online for Touchless Delivery"
+          desc="Order Online for "
+          descU="Touchless Delivery"
           title="Model 3"
           backgroundImg={Model3}
           leftBtnTxt="CUSTOM ORDER"
@@ -34,7 +36,8 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="Order Online for Touchless Delivery"
+          desc="Order Online for "
+          descU="Touchless Delivery"
           title="Model S"
           backgroundImg={ModelS}
           leftBtnTxt="CUSTOM ORDER"
@@ -42,7 +45,8 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="Order Online for Touchless Delivery"
+          desc="Order Online for "
+          descU="Touchless Delivery"
           title="Model X"
           backgroundImg={ModelX}
           leftBtnTxt="CUSTOM ORDER"
@@ -50,7 +54,8 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="Order Online for Touchless Delivery"
+          desc="Order Online for "
+          descU="Touchless Delivery"
           title="Model Y"
           backgroundImg={ModelY}
           leftBtnTxt="CUSTOM ORDER"
@@ -58,7 +63,8 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="something"
+          desc="Money Back "
+          descU="Guaranteed"
           title="Solar for New Roofs"
           backgroundImg={SolarRoof}
           leftBtnTxt="ORDER NOW"
@@ -66,8 +72,7 @@ function Home({ isMenuOpen, setIsMenuOpen }) {
           twoButtons="true"
         />
         <Item
-          desc="something"
-          title="Lowest Cost Solar Panels in America"
+          title="Accessories"
           backgroundImg={Accessories}
           leftBtnTxt="ORDER NOW"
           rightBtnTxt="LEARN MORE"
