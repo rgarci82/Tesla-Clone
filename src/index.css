@@ -573,6 +573,8 @@ code {
 .items__container {
   scroll-snap-type: y mandatory;
   overflow: auto;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .item {
@@ -583,7 +585,7 @@ code {
   background-size: cover;
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
+  scroll-snap-align: start;
 }
 
 .item__container {
@@ -601,6 +603,7 @@ code {
   color: #393c41;
   align-items: center;
   flex: 1;
+  text-align: center;
 }
 
 .item__textDesc {
